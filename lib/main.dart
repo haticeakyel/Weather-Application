@@ -180,6 +180,10 @@ class WeatherPageState extends State<WeatherPage> {
                     child: Text('Finland'),
                     value: 'Finland',
                   ),
+                  DropdownMenuItem(
+                    child: Text('Guangzhou'),
+                    value: 'Guangzhou',
+                  ),
                 ],
                 onChanged: (value) {
                   setState(() {
